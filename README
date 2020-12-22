@@ -1,0 +1,8 @@
+# Day 13 Part 2 Solution
+
+I looked at the AoC subreddit and learned about the Chinese Remainder Theorem
+and Extended Euclidian Algorithm, but I applied it incorrectly on my first
+attempt(s). I initially assumed the remainder I would be using in the solution 
+would be the index of the bus in the input array, but when I examined the test
+inputs I realized I was subtracting the index, meaning I needed to use the bus
+ID minus the index to get a valid remainder.
